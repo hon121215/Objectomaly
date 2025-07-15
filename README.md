@@ -39,7 +39,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 ---
 ## Qualitative Results
 <p align="center">
-  <img src="assets/qualitative_result.png" alt="Qualitative Examples" width="700">
+  <img src="fig-src-dat-at.png" alt="Qualitative Examples" width="700">
 </p>
 Objectomaly produces:
 - Clean boundaries around anomalies
