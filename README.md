@@ -10,7 +10,9 @@
 ---
 ##  Overview
 Semantic segmentation models often struggle with unknown or unexpected objects, especially in safety-critical environments like autonomous driving. Existing OoD methods face challenges like:
-
+- :x: Imprecise boundaries
+- :x: Inconsistent scores within object regions
+- :x: False positives from background textures
 ![SAM 2 architecture](image.png)
 **Objectomaly** addresses these challenges through:
 ###  Three-Stage Refinement
