@@ -16,7 +16,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 ---
 
 ![SAM 2 architecture](image.png)
-## **Objectomaly** addresses these challenges through:
+## **Objectomaly** addresses these challenges through
 ###  Three-Stage Refinement
 1. **Coarse Anomaly Scoring (CAS):**
    Generates an initial anomaly map using a baseline OoD detector (e.g., Mask2Anomaly).
