@@ -13,7 +13,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 %- :x: Imprecise boundaries
 %- :x: Inconsistent scores within object regions
 %- :x: False positives from background textures
-![SAM 2 architecture](fig-src-dat-at.png)
+![SAM 2 architecture](image.png)
 **Objectomaly** addresses these challenges through:
 ###  Three-Stage Refinement
 1. **Coarse Anomaly Scoring (CAS):**
