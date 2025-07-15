@@ -5,6 +5,9 @@
 [[`Paper`](https://arxiv.org/abs/2507.07460)] [[`Dataset`](modifiying)] [[`BibTeX`](#Citing-Objectomoly)]
 
 
+## Installation
+
+See [installation instructions](INSTALL.md).
 
 ## Citing Objectomoly
 If you use Objectomoly in your research, please use the following BibTeX entry.
