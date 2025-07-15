@@ -72,7 +72,8 @@ You can download the anomaly segmentation datasets from the following [🔗link]
 
 📂 **Dataset Structure**
 
-```datasets/
+```
+datasets/
 ├── fs_static
 │ ├── images
 │ └── labels_masks
@@ -102,7 +103,7 @@ If you use Objectomoly in your research, please use the following BibTeX entry.
 }
 ```
 
-## 🙏 Acknowledgement
+## Acknowledgement
 
 We gratefully acknowledge the following repositories that greatly inspired and supported the development of Objectomaly:
 
