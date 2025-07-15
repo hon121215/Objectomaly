@@ -59,19 +59,15 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 <p align="center">
   <img src="fig-src-dat-ra.png" alt="Qualitative Examples" width="700">
 </p>
-Objectomaly produces:
-- Clean boundaries around anomalies
-- Fewer false positives in cluttered backgrounds
-- Better object delineation in challenging scenes
----
 
 ## Installation
 
 See [installation instructions](INSTALL.md).
 
-### Datasets
+## Datasets
 
 📦 **Dataset Download**
+
 You can download the anomaly segmentation datasets from the following [🔗link](https://drive.usercontent.google.com/download?id=1NL_ApRB-MjVRrMw6ONYZTe1azXc_71yQ&export=download&authuser=0)
 
 📂 **Dataset Structure**
