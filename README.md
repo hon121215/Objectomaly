@@ -12,7 +12,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 - :x: False positives from background textures
 
 **Objectomaly** addresses these challenges through:
-### ✔️ Three-Stage Refinement
+### ☑️ Three-Stage Refinement
 1. **Coarse Anomaly Scoring (CAS):**
    Generates an initial anomaly map using a baseline OoD detector (e.g., Mask2Anomaly).
 2. **Objectness-Aware Score Calibration (OASC):**
