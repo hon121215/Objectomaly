@@ -33,11 +33,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 - Lack of spatial consistency within anomaly scores of the same object (middle)
 - Increase in false positives due to background noise (right)
 
----
 
-
-
----
 
 ## Quantitative Results
 
