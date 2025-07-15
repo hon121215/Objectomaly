@@ -3,14 +3,19 @@
 
 
 [[`Paper`](https://arxiv.org/abs/2507.07460)] [[`Dataset`](https://drive.usercontent.google.com/download?id=1NL_ApRB-MjVRrMw6ONYZTe1azXc_71yQ&export=download&authuser=0)] [[`BibTeX`](#Citing-Objectomoly)]
+
+![SAM 2 architecture](fig-src-dat-at.png)
+
 > **Objectomaly** is a post-hoc, training-free refinement framework for Out-of-Distribution (OoD) segmentation. It improves structural consistency and boundary precision by incorporating object-level priors through a three-stage pipeline: CAS, OASC, and MBP.
 ---
 ##  Overview
 Semantic segmentation models often struggle with unknown or unexpected objects, especially in safety-critical environments like autonomous driving. Existing OoD methods face challenges like:
-- :x: Imprecise boundaries
-- :x: Inconsistent scores within object regions
-- :x: False positives from background textures
+- :x: Inaccurate boundaries between adjacent objects
+- :x: Lack of spatial consistency within anomaly scores of the same object
+- :x: Increase in false positives due to background noise
+---
 
+![SAM 2 architecture](image.png)
 **Objectomaly** addresses these challenges through:
 ###  Three-Stage Refinement
 1. **Coarse Anomaly Scoring (CAS):**
@@ -36,7 +41,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 ---
 ## Qualitative Results
 <p align="center">
-  <img src="assets/qualitative_result.png" alt="Qualitative Examples" width="700">
+  <img src="fig-src-dat-ra.png" alt="Qualitative Examples" width="700">
 </p>
 Objectomaly produces:
 - Clean boundaries around anomalies
