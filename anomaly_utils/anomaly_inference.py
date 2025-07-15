@@ -60,7 +60,7 @@ torch.backends.cudnn.benchmark = False
 WINDOW_NAME = "mask2former demo"
 
 # Using SAM 
-sam = sam_model_registry["vit_h"](checkpoint='/root/Mask2Anomaly/sam_vit_h_4b8939.pth')
+sam = sam_model_registry["vit_h"](checkpoint='/root/Objectomaly/sam_vit_h_4b8939.pth')
 sam.to(device=device)
 mask_generator = SamAutomaticMaskGenerator(sam)
 
@@ -79,20 +79,20 @@ def get_parser():
     parser = argparse.ArgumentParser(description="maskformer2 demo for builtin configs")
     parser.add_argument(
         "--config-file",
-        default="/root/Mask2Anomaly/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml",
+        default="/root/Objectomaly/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml",
         metavar="FILE",
         help="path to config file",
     )
     parser.add_argument(
         "--input",
-        default="/root/Mask2Anomaly/Validation_Dataset/Validation_Dataset/RoadAnomaly21/images/*.png",
+        default="/root/Objectomaly/Validation_Dataset/Validation_Dataset/RoadAnomaly21/images/*.png",
         nargs="+",
         help="A list of space separated input images; "
         "or a single glob pattern such as 'directory/*.jpg'",
     )
     parser.add_argument(
         "--output",
-        default="/root/Mask2Anomaly/results/",
+        default="/root/Objectomaly/results/",
         help="A file or directory to save output visualizations. "
         "If not given, will show output in an OpenCV window.",
     )
