@@ -76,18 +76,18 @@ You can download the anomaly segmentation datasets from the following link: 🔗
 
 📁 **Dataset Structure**
 datasets/
-├── fs_static/
-│ ├── images/ # Input RGB images
-│ └── labels_masks/ # Corresponding segmentation masks
-├── RoadAnomaly/
-│ ├── images/
-│ └── labels_masks/
-├── RoadAnomaly21/
-│ ├── images/
-│ └── labels_masks/
-├── RoadObstacle21/
-│ ├── images/
-│ └── labels_masks/
+├── 📂 fs_static
+│ ├── 📂 images # Input RGB images
+│ └── 📂 labels_masks # Corresponding segmentation masks
+├── 📂 RoadAnomaly
+│ ├── 📂 images
+│ └── 📂 labels_masks
+├── 📂 RoadAnomaly21
+│ ├── 📂 images
+│ └── 📂 labels_masks
+├── 📂 RoadObstacle21
+│ ├── 📂 images
+│ └── 📂 labels_masks
 
 After downloading, unzip the files and place them under the `datasets/` directory.
 
