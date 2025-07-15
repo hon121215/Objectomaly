@@ -2,7 +2,7 @@
 [Jeonghoon Song](modifying..), [Sunghun Kim](modifiying), [Jaegyun Im](https://github.com/imjaegyun), [Byeongjoon Noh](https://scholar.google.com/citations?hl=ko&user=0mPWzzIAAAAJ)
 
 
-[[`Paper`](https://arxiv.org/abs/2507.07460)] [[`Dataset`](modifiying)] [[`Bitext`](Citing Objectomoly)]
+[[`Paper`](https://arxiv.org/abs/2507.07460)] [[`Dataset`](modifiying)] [[`Bitext`](#Citing Objectomoly)]
 
 
 
