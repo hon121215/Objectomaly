@@ -23,7 +23,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 ---
 
 ## **Objectomaly** addresses these challenges through
-# *Overall Architecture*
+
 ![Overall](fig-src-architecture.png)
 
 ### Three-Stage Refinement
