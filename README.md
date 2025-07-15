@@ -65,9 +65,6 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 <p align="center">
   <img src="fig-src-dat-at.png" alt="Qualitative Examples" width="700">
 </p>
-<p align="center">
-  <img src="fig-src-dat-ra.png" alt="Qualitative Examples" width="700">
-</p>
 
 ## Usage
 
