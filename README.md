@@ -37,7 +37,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 
 ## Benchmark Results
 
-### Pixel-Level Metrics (AuPRC ↑ / FPR~95~ ↓)
+### Pixel-Level Metrics (AuPRC ↑ / FPR<sub>95</sub> ↓)
 
 | Dataset      | RPL           | Maskomaly     | UNO          | Mask2Anomaly  | **Objectomaly (Ours)** |
 | ------------ | ------------- | ------------- | ------------ | ------------- | ---------------------- |
