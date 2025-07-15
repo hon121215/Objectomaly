@@ -14,9 +14,9 @@
 
 Semantic segmentation models often struggle with unknown or unexpected objects, especially in safety-critical environments like autonomous driving. Existing OoD methods face challenges like:
 
-- :1: Inaccurate boundaries between adjacent objects (corresponds to the left example in the figure)
-- :2: Lack of spatial consistency within anomaly scores of the same object (corresponds to the middle example in the figure)
-- :3: Increase in false positives due to background noise (corresponds to the right example in the figure)
+- Inaccurate boundaries between adjacent objects (corresponds to the left example in the figure)
+- Lack of spatial consistency within anomaly scores of the same object (corresponds to the middle example in the figure)
+- Increase in false positives due to background noise (corresponds to the right example in the figure)
 
 ---
 
