@@ -14,9 +14,9 @@
 
 Semantic segmentation models often struggle with unknown or unexpected objects, especially in safety-critical environments like autonomous driving. Existing OoD methods face challenges like:
 
-- :x: Inaccurate boundaries between adjacent objects
-- :x: Lack of spatial consistency within anomaly scores of the same object
-- :x: Increase in false positives due to background noise
+- :1: Inaccurate boundaries between adjacent objects (corresponds to the left example in the figure)
+- :2: Lack of spatial consistency within anomaly scores of the same object (corresponds to the middle example in the figure)
+- :3: Increase in false positives due to background noise (corresponds to the right example in the figure)
 
 ---
 
@@ -91,7 +91,7 @@ You can download the anomaly segmentation datasets from the following [🔗link]
 │ └── labels_masks
 ```
 
-After downloading, unzip the files and place them under the `datasets/` directory.
+After downloading, unzip the files and place them under the `Objectomaly/datasets/` directory.
 
 ## Citing Objectomoly
 
