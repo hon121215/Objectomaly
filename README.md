@@ -69,6 +69,28 @@ Objectomaly produces:
 
 See [installation instructions](INSTALL.md).
 
+### Datasets
+
+📦 **Dataset Download**
+You can download the anomaly segmentation datasets from the following link: 🔗 [Download Datasets](https://drive.usercontent.google.com/download?id=1NL_ApRB-MjVRrMw6ONYZTe1azXc_71yQ&export=download&authuser=0)
+
+📁 **Dataset Structure**
+datasets/
+├── fs_static/
+│ ├── images/ # Input RGB images
+│ └── labels_masks/ # Corresponding segmentation masks
+├── RoadAnomaly/
+│ ├── images/
+│ └── labels_masks/
+├── RoadAnomaly21/
+│ ├── images/
+│ └── labels_masks/
+├── RoadObstacle21/
+│ ├── images/
+│ └── labels_masks/
+
+After downloading, unzip the files and place them under the `datasets/` directory.
+
 ## Citing Objectomoly
 
 If you use Objectomoly in your research, please use the following BibTeX entry.
