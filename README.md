@@ -10,6 +10,17 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 - :x: Imprecise boundaries
 - :x: Inconsistent scores within object regions
 - :x: False positives from background textures
+
+**Objectomaly** addresses these challenges through:
+### ✔️ Three-Stage Refinement
+1. **Coarse Anomaly Scoring (CAS):**
+   Generates an initial anomaly map using a baseline OoD detector (e.g., Mask2Anomaly).
+2. **Objectness-Aware Score Calibration (OASC):**
+   Refines scores using instance masks from [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) for intra-object consistency.
+3. **Meticulous Boundary Precision (MBP):**
+   Sharpens contours using Laplacian filtering and Gaussian smoothing.
+---
+
 ## Installation
 
 See [installation instructions](INSTALL.md).
