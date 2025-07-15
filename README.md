@@ -5,14 +5,14 @@
 [[`Paper`](https://arxiv.org/abs/2507.07460)] [[`Dataset`](https://drive.usercontent.google.com/download?id=1NL_ApRB-MjVRrMw6ONYZTe1azXc_71yQ&export=download&authuser=0)] [[`BibTeX`](#Citing-Objectomoly)]
 > **Objectomaly** is a post-hoc, training-free refinement framework for Out-of-Distribution (OoD) segmentation. It improves structural consistency and boundary precision by incorporating object-level priors through a three-stage pipeline: CAS, OASC, and MBP.
 ---
-## 🧠 Overview
+##  Overview
 Semantic segmentation models often struggle with unknown or unexpected objects, especially in safety-critical environments like autonomous driving. Existing OoD methods face challenges like:
 - :x: Imprecise boundaries
 - :x: Inconsistent scores within object regions
 - :x: False positives from background textures
 
 **Objectomaly** addresses these challenges through:
-### ✔️ Three-Stage Refinement
+###  Three-Stage Refinement
 1. **Coarse Anomaly Scoring (CAS):**
    Generates an initial anomaly map using a baseline OoD detector (e.g., Mask2Anomaly).
 2. **Objectness-Aware Score Calibration (OASC):**
@@ -20,21 +20,21 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 3. **Meticulous Boundary Precision (MBP):**
    Sharpens contours using Laplacian filtering and Gaussian smoothing.
 ---
-## 📊Benchmark Results
-### 🧮Pixel-Level Metrics (AuPRC ↑ / FPR95 ↓)
+## Benchmark Results
+### Pixel-Level Metrics (AuPRC ↑ / FPR95 ↓)
 | Dataset       | RPL     | Maskomaly | UNO     | Mask2Anomaly | **Objectomaly (Ours)** |
 |---------------|---------|-----------|---------|--------------|------------------------|
 | **SMIYC AT**  | 88.55 / 7.18 | 93.40 / 6.90 | 96.30 / 2.00 | 88.70 / 14.60 | **96.64 / 0.62** |
 | **SMIYC OT**  | 96.91 / 0.09 | 0.96 / 96.14 | 93.20 / 0.20 | 93.30 / 0.20 | **96.99 / 0.07** |
 | **RA**        | 71.61 / 17.74 | 70.90 / 11.90 | 82.40 / 9.20 | 79.70 / 13.45 | **87.19 / 9.92** |
 
-### 🎯Component-Level Metrics (F1-score ↑)
+### Component-Level Metrics (F1-score ↑)
 | Dataset       | UNO     | Mask2Anomaly | **Objectomaly (Ours)** |
 |---------------|---------|--------------|------------------------|
 | **SMIYC AT**  | 58.87   | 47.16        | **60.83**              |
 | **SMIYC OT**  | 76.32   | 68.15        | **83.44**              |
 ---
-## 🧪 Qualitative Results
+## Qualitative Results
 <p align="center">
   <img src="assets/qualitative_result.png" alt="Qualitative Examples" width="700">
 </p>
