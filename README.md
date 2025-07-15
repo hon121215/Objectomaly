@@ -49,7 +49,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 
 | Dataset      | RPL                   | Maskomaly             | RbA                   | UNO                   | Mask2Anomaly          | **Objectomaly (Ours)**            |
 | ------------ | --------------------- | --------------------- | --------------------- | --------------------- | --------------------- | --------------------------------- |
-| **SMIYC AT** | 49.77 / 29.96 / 30.16 | 55.40 / 51.50 / 49.90 | 56.30 / 41.35 / 42.00 | **68.01** / 51.86 / 58.87 | 55.28 / 51.68 / 47.16 | 43.70 / **94.95** / **60.83**     |
+| **SMIYC AT** | 49.77 / 29.96 / 30.16 | 55.40 / 51.50 / 49.90 | 56.30 / 41.35 / 42.00 | **68.01** / 51.86 / 58.87 | 55.28 / 51.68 / 47.16 | 43.70 / **94.95** / **60.83** |
 | **SMIYC OT** | 52.62 / 56.65 / 56.69 | 57.82 / 75.42 / 68.15 | 47.40 / 56.20 / 50.40 | 66.87 / 74.86 / 76.32 | 55.72 / 75.42 / 68.15 | **71.58** / **78.88** / **83.44** |
 
 ---
@@ -89,6 +89,15 @@ datasets/
 ```
 
 After downloading, unzip the files and place them under the `Objectomaly/datasets/` directory.
+
+## Usage
+
+After downloading the files below, modify the paths to each of them
+
+- [link](https://drive.usercontent.google.com/download?id=1TO8op0JvEhTzesbo3vcKbkmbPhcVmE47)
+- [link](https://drive.usercontent.google.com/download?id=1FaZAKCsTxYE5KBOlRgSb6q3eWFtdkSvp)
+- [link](https://drive.usercontent.google.com/download?id=1ftcPwAs3zy5cD83Mhxoiw4kgjXmrZW39)
+
 
 ## Citing Objectomoly
 
