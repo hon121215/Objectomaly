@@ -96,7 +96,7 @@ After downloading the files below, modify the paths to each of them
 
 - [best_contrastive.pth](https://drive.usercontent.google.com/download?id=1TO8op0JvEhTzesbo3vcKbkmbPhcVmE47) → /Objectomaly/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml 
 - [bt-f-xl.pth](https://drive.usercontent.google.com/download?id=1FaZAKCsTxYE5KBOlRgSb6q3eWFtdkSvp) → /Objectomaly/configs/cityscapes/semantic-segmentation/anomaly_ft.yaml 
-- [sam_vit_h_4b8939](https://drive.usercontent.google.com/download?id=1ftcPwAs3zy5cD83Mhxoiw4kgjXmrZW39) → /Objectomaly/anomaly_utils/anomaly_inference.py 
+- [sam_vit_h_4b8939.pth](https://drive.usercontent.google.com/download?id=1ftcPwAs3zy5cD83Mhxoiw4kgjXmrZW39) → /Objectomaly/anomaly_utils/anomaly_inference.py 
 
 
 ## Citing Objectomoly
