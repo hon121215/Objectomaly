@@ -4,9 +4,22 @@
 
 [[`Paper`](https://arxiv.org/abs/2507.07460)] [[`Dataset`](https://drive.usercontent.google.com/download?id=1NL_ApRB-MjVRrMw6ONYZTe1azXc_71yQ&export=download&authuser=0)] [[`BibTeX`](#Citing-Objectomoly)]
 
-![SAM 2 architecture](fig-src-dat-at.png)
+
+![Overall](fig-src-architecture.png)
 
 > **Objectomaly** is a post-hoc, training-free refinement framework for Out-of-Distribution (OoD) segmentation. It improves structural consistency and boundary precision by incorporating object-level priors through a three-stage pipeline: CAS, OASC, and MBP.
+
+### Three-Stage Refinement
+
+1. **Coarse Anomaly Scoring (CAS):**
+   Generates an initial anomaly map using a baseline OoD detector (e.g., Mask2Anomaly).
+2. **Objectness-Aware Score Calibration (OASC):**
+   Refines scores using instance masks from [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) for intra-object consistency.
+3. **Meticulous Boundary Precision (MBP):**
+   Sharpens contours using Laplacian filtering and Gaussian smoothing.
+
+
+
 
 ---
 
@@ -22,18 +35,7 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 
 ---
 
-## **Objectomaly** addresses these challenges through
 
-![Overall](fig-src-architecture.png)
-
-### Three-Stage Refinement
-
-1. **Coarse Anomaly Scoring (CAS):**
-   Generates an initial anomaly map using a baseline OoD detector (e.g., Mask2Anomaly).
-2. **Objectness-Aware Score Calibration (OASC):**
-   Refines scores using instance masks from [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) for intra-object consistency.
-3. **Meticulous Boundary Precision (MBP):**
-   Sharpens contours using Laplacian filtering and Gaussian smoothing.
 
 ---
 
@@ -64,7 +66,9 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 ---
 
 ## Qualitative Results
-
+<p align="center">
+  <img src="fig-src-dat-at.png" alt="Qualitative Examples" width="700">
+</p>
 <p align="center">
   <img src="fig-src-dat-ra.png" alt="Qualitative Examples" width="700">
 </p>
