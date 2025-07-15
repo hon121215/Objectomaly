@@ -33,7 +33,7 @@ TORCH_CUDA_ARCH_LIST='8.0' FORCE_CUDA=1 python setup.py build install
 
 ```bash
 conda create --name objectomaly python=3.8 -y
-conda activate objectomaly
+conda activate Objectomaly
 conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c nvidia
 pip install -U opencv-python
 
@@ -47,7 +47,6 @@ pip install git+https://github.com/mcordts/cityscapesScripts.git
 cd ..
 git clone git@github.com:facebookresearch/Mask2Former.git
 cd Mask2Former
-pip install -r requirements.txt
 cd mask2former/modeling/pixel_decoder/ops
 sh make.sh
 ```
