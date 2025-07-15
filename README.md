@@ -69,23 +69,24 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 
 ## Usage
 
-**Step 1 : git clone**
+### Step 1 : git clone
 ```
 git clone https://github.com/hon121215/Objectomaly.git
 cd Objectomaly
 ```
-**Step 2 : environment setup**
+
+### Step 2 : environment setup
 
 - See [installation instructions](INSTALL.md).
 
-**Step 3 : Weight File Download**
+### Step 3 : Weight File Download
 After downloading the files below, modify the paths to each of them:
 
 - [best_contrastive.pth](https://drive.usercontent.google.com/download?id=1TO8op0JvEhTzesbo3vcKbkmbPhcVmE47) → /Objectomaly/configs/cityscapes/semantic-segmentation/anomaly_inference.yaml 
 - [bt-f-xl.pth](https://drive.usercontent.google.com/download?id=1FaZAKCsTxYE5KBOlRgSb6q3eWFtdkSvp) → /Objectomaly/configs/cityscapes/semantic-segmentation/anomaly_ft.yaml 
 - [sam_vit_h_4b8939.pth](https://drive.usercontent.google.com/download?id=1ftcPwAs3zy5cD83Mhxoiw4kgjXmrZW39) → /Objectomaly/anomaly_utils/anomaly_inference.py 
 
-**Step 4 : Dataset Download**
+### Step 4 : Dataset Download
 
 - You can download the anomaly segmentation datasets from the following [🔗link](https://drive.usercontent.google.com/download?id=1NL_ApRB-MjVRrMw6ONYZTe1azXc_71yQ&export=download&authuser=0)
 
@@ -109,7 +110,7 @@ datasets/
 
 After downloading, unzip the files and place them under the `Objectomaly/datasets/` directory.
 
-**Step 5 : Inference**
+### Step 5 : Inference
 
 - Set the argument path for run.sh and run it
 ```
