@@ -1,5 +1,5 @@
 _BASE_: Base-Streethazard-ft.yaml
-OUTPUT_DIR: "/home/shyam/Mask2Anomaly/output/streethazard-swin-base-coco-supervised/"
+OUTPUT_DIR: "/home/shyam/Objectomaly/output/streethazard-swin-base-coco-supervised/"
 MODEL:
   SEM_SEG_HEAD:
     IGNORE_VALUE: 12
