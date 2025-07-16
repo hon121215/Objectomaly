@@ -33,6 +33,9 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 
 ### Pixel-Level Metrics (AuPRC ↑ / FPR<sub>95</sub> ↓)
 
+![Pixel-level](fig-src-pixel-level-evaluation.png)
+![Component-level](fig-src-component-level-evaluation.png)
+
 | Method          | SMIYC AT         | SMIYC OT         | RA               |
 | --------------- | ---------------- | ---------------- | ---------------- |
 | RPL             | 88.55 / 7.18     | 96.91 / 0.09     | 71.61 / 17.74    |
