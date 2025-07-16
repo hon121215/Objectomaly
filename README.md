@@ -31,11 +31,11 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 
 ## Quantitative Results
 
-### Pixel-Level Metrics (AuPRC ↑ / FPR<sub>95</sub> ↓)
+### Pixel-Level Metrics
 
 ![Pixel-level](fig-src-pixel-level-evaluation.png)
 
-### Component-Level Metrics (sIoU ↑ / PPV ↑ / F1-score ↑)
+### Component-Level Metrics
 
 ![Component-level](fig-src-component-level-evaluation.png)
 
