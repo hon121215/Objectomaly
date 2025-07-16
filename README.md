@@ -98,10 +98,10 @@ sh run.sh
 
 ## Docker Image
 
-[Docker hub](https://hub.docker.com/r/hon121215/objectomaly/tags)
+Download Link : [Docker hub](https://hub.docker.com/r/hon121215/objectomaly/tags)
 
 ```
-docker run -it --gpus all **docker iamges**
+docker run -it --gpus all DOCKER IMAGES
 cd Objectomaly
 conda activate objectomaly
 sh run.sh
