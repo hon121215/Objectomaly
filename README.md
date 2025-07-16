@@ -34,29 +34,10 @@ Semantic segmentation models often struggle with unknown or unexpected objects, 
 ### Pixel-Level Metrics (AuPRC ↑ / FPR<sub>95</sub> ↓)
 
 ![Pixel-level](fig-src-pixel-level-evaluation.png)
-![Component-level](fig-src-component-level-evaluation.png)
-
-| Method          | SMIYC AT         | SMIYC OT         | RA               |
-| --------------- | ---------------- | ---------------- | ---------------- |
-| RPL             | 88.55 / 7.18     | 96.91 / 0.09     | 71.61 / 17.74    |
-| Maskomaly       | 93.40 / 6.90     | 0.96 / 96.14     | 70.90 / 11.90    |
-| RbA             | 86.10 / 15.90    | 87.80 / 3.30     | 78.45 / 11.83    |
-| UNO             | 96.30 / 2.00     | 93.20 / 0.20     | 82.40 / 9.20     |
-| Mask2Anomaly    | 88.70 / 14.60    | 93.30 / 0.20     | 79.70 / 13.45    |
-| **Objectomaly** | **96.64 / 0.62** | **96.99 / 0.07** | **87.19 / 9.92** |
 
 ### Component-Level Metrics (sIoU ↑ / PPV ↑ / F1-score ↑)
 
-| Method          | SMIYC AT (sIoU / PPV / F1)    | SMIYC OT (sIoU / PPV / F1) |
-| --------------- | ----------------------------- | -------------------------- |
-| RPL             | 49.77 / 29.96 / 30.16         | 52.62 / 56.65 / 56.69      |
-| Maskomaly       | 55.40 / 51.50 / 49.90         | 57.82 / 75.42 / 68.15      |
-| RbA             | 56.30 / 41.35 / 42.00         | 47.40 / 56.20 / 50.40      |
-| UNO             | **68.01** / 51.86 / 58.87     | 66.87 / 74.86 / 76.32      |
-| Mask2Anomaly    | 55.28 / 51.68 / 47.16         | 55.72 / 75.42 / 68.15      |
-| **Objectomaly** | 43.70 / **94.95** / **60.83** | **71.58 / 78.88 / 83.44**  |
-
----
+![Component-level](fig-src-component-level-evaluation.png)
 
 ## Qualitative Results
 
