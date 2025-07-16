@@ -98,7 +98,14 @@ sh run.sh
 
 ## Docker Image
 
-**Coming soon**
+[Docker hub](https://hub.docker.com/r/hon121215/objectomaly/tags)
+
+```
+docker run -it --gpus all **docker iamges**
+cd Objectomaly
+conda activate objectomaly
+sh run.sh
+```
 
 ## Citing Objectomoly
 
